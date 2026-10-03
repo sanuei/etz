@@ -1,0 +1,16 @@
+# secrets
+.env
+*.key
+.mmkey
+
+# heavy intermediates (re-creatable by the pipeline)
+promo/build/
+__pycache__/
+*.pyc
+
+# large or re-downloadable inputs
+promo/assets/fonts/*.ttf
+promo/assets/images/raw/
+promo/script/*thinking*
+promo/script/stdout.txt
+promo/script/script_raw_*

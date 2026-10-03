@@ -1,0 +1,261 @@
+{
+  "fps": 24,
+  "duration": 60.0,
+  "bpm": 80,
+  "title_cn": "ETZ：光跃无界",
+  "title_en": "ETZ: LIGHT BEYOND BOUNDARIES",
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0.0,
+      "end": 5.25,
+      "image": "S01"
+    },
+    {
+      "id": "S02",
+      "start": 5.25,
+      "end": 10.5,
+      "image": "S02"
+    },
+    {
+      "id": "S03",
+      "start": 10.5,
+      "end": 15.0,
+      "image": "S03"
+    },
+    {
+      "id": "S04",
+      "start": 15.0,
+      "end": 20.25,
+      "image": "S04"
+    },
+    {
+      "id": "S05",
+      "start": 20.25,
+      "end": 24.0,
+      "image": "S05"
+    },
+    {
+      "id": "S06",
+      "start": 24.0,
+      "end": 28.5,
+      "image": "S06"
+    },
+    {
+      "id": "S07",
+      "start": 28.5,
+      "end": 31.5,
+      "image": "S07"
+    },
+    {
+      "id": "S08",
+      "start": 31.5,
+      "end": 34.5,
+      "image": "S08"
+    },
+    {
+      "id": "S09",
+      "start": 34.5,
+      "end": 37.5,
+      "image": "S09"
+    },
+    {
+      "id": "S10",
+      "start": 37.5,
+      "end": 39.75,
+      "image": "S10"
+    },
+    {
+      "id": "S11",
+      "start": 39.75,
+      "end": 42.0,
+      "image": "S11"
+    },
+    {
+      "id": "S12",
+      "start": 42.0,
+      "end": 44.25,
+      "image": "S12"
+    },
+    {
+      "id": "S13",
+      "start": 44.25,
+      "end": 45.75,
+      "image": "S13"
+    },
+    {
+      "id": "S14",
+      "start": 45.75,
+      "end": 47.25,
+      "image": "S14"
+    },
+    {
+      "id": "S15",
+      "start": 47.25,
+      "end": 49.5,
+      "image": "S16"
+    },
+    {
+      "id": "S16",
+      "start": 49.5,
+      "end": 53.25,
+      "image": "S17"
+    },
+    {
+      "id": "S17",
+      "start": 53.25,
+      "end": 60.0,
+      "image": "S18"
+    }
+  ],
+  "vo": [
+    {
+      "id": "V1",
+      "start": 1.2
+    },
+    {
+      "id": "V2",
+      "start": 6.6
+    },
+    {
+      "id": "V3",
+      "start": 11.55
+    },
+    {
+      "id": "V4",
+      "start": 16.2
+    },
+    {
+      "id": "V5",
+      "start": 24.6
+    },
+    {
+      "id": "V6",
+      "start": 34.8
+    },
+    {
+      "id": "V7",
+      "start": 39.9
+    },
+    {
+      "id": "V8",
+      "start": 50.25
+    }
+  ],
+  "subs": {
+    "V1": [
+      "在宇宙诞生之前，只有寂静。",
+      "Before the universe was born, there was only silence."
+    ],
+    "V2": [
+      "光，找到了方向。",
+      "Light found its direction."
+    ],
+    "V3": [
+      "价值，开始流动。",
+      "Value began to flow."
+    ],
+    "V4": [
+      "现实与远方，此刻相连。",
+      "Reality and the far beyond, connected now."
+    ],
+    "V5": [
+      "随时随地，交易无界。",
+      "Trade anytime, anywhere."
+    ],
+    "V6": [
+      "昼夜流转，连接全球。",
+      "Day and night, across the globe."
+    ],
+    "V7": [
+      "安全，是每一次跃迁的坐标。",
+      "Security is the coordinate of every leap."
+    ],
+    "V8": [
+      "ETZ，开启无限未来金融。",
+      "ETZ. Open unlimited future finance."
+    ]
+  },
+  "supers": [
+    {
+      "en": "RWA · REAL-WORLD ASSETS",
+      "cn": "现实世界资产",
+      "start": 17.0,
+      "end": 20.0
+    },
+    {
+      "en": "SPOT TRADING · BTC/USDT",
+      "cn": "现货交易",
+      "start": 25.0,
+      "end": 28.2
+    },
+    {
+      "en": "7×24 · GLOBAL SERVICE",
+      "cn": "全球服务",
+      "start": 35.2,
+      "end": 37.4
+    },
+    {
+      "en": "TRADE ON THE APP",
+      "cn": "App 随时随地交易",
+      "start": 37.8,
+      "end": 39.6
+    },
+    {
+      "en": "ASSET SECURITY",
+      "cn": "资产安全保障",
+      "start": 40.2,
+      "end": 41.9
+    },
+    {
+      "en": "SPEED",
+      "cn": "极速",
+      "start": 44.25,
+      "end": 45.7,
+      "big": true
+    },
+    {
+      "en": "CONNECT",
+      "cn": "连接",
+      "start": 45.75,
+      "end": 47.2,
+      "big": true
+    },
+    {
+      "en": "GLOBAL",
+      "cn": "全球",
+      "start": 47.25,
+      "end": 48.7,
+      "big": true
+    }
+  ],
+  "endcard": {
+    "slogan_en": "Connect Digital Assets, Open Unlimited Future Finance",
+    "slogan_cn": "连接数字资产，开启无限未来金融",
+    "tag_en": "Trade Anytime, Anywhere",
+    "tag_cn": "随时随地 · 交易无界",
+    "url": "etz.com"
+  },
+  "image_prompts": {
+    "S01": "photorealistic IMAX film still, an immense primordial black hole and tiny brilliant singularity suspended in absolute deep space, thin asymmetric accretion disk, vast negative space, physically accurate gravitational lensing, icy white core with one extremely subtle emerald-green glint, ultra-detailed astrophotography, cinematic volumetric lighting, restrained film grain, 2.39:1 widescreen composition, no text, no logo, no watermark.",
+    "S02": "photorealistic IMAX film still, a newborn star inside a vast translucent emission nebula, layered clouds of ionized gas and dust, one young brilliant sun, dark space on the left, natural cyan and amber colors with a restrained emerald-green edge, physically based star glow, immense scale, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark.",
+    "S03": "photorealistic IMAX film still, a single volumetric river of starlight cutting diagonally from lower left to upper right through deep space, cold white core with ultra-thin emerald-green energy filaments, sparse distant stars, realistic long-exposure cosmic light, powerful negative space, ultra-detailed, 2.39:1 widescreen composition, no text, no logo, no watermark.",
+    "S04": "photorealistic IMAX film still, low-orbit view of Earth's night side, curved horizon across the lower third, natural amber city lights, faint emerald aurora at the limb, delicate arcs of light extending from the planet into space, physically accurate atmosphere, realistic orbital perspective, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark. Full-bleed composition filling the entire frame edge to edge, no black bars, no letterboxing, no borders, no frame.",
+    "S05": "photorealistic IMAX film still, a generic unbranded modular orbital station silhouetted above Earth's night side, realistic metallic modules and antennae, warm city grid visible below, delicate emerald-green light routes converging toward the station, strong foreground parallax, natural reflected light, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark.",
+    "S06": "Astrophotography of deep outer space far from any planet: an infinite star field that fills the entire image edge to edge, thousands of crisp pin-point stars of varied brightness and subtle color temperature, a few faint emerald-green and teal nebula wisps, the Milky Way core glowing softly in a band diagonally across the image, calm dark negative space in the center, no horizon, no ground, no clouds, no planet, hyper-detailed, photorealistic, deep rich blacks, no text, no logo, no watermark.",
+    "S07": "photorealistic IMAX film still, Earth's crescent on the right and a distant galaxy sweeping across the background, several orbital nodes connected by delicate emerald-green light paths, realistic satellites and orbital perspective, a continuous visual relationship between planet, network, and galaxy, ultra-detailed astrophotography, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark.",
+    "S08": "photorealistic IMAX film still, a supermassive black hole with a physically accurate photon ring and gravitational lens, absolute black event horizon, cold white and amber edge light, a tiny unbranded spacecraft following a graceful orbital arc, subtle emerald particles, immense scale, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark.",
+    "S09": "photorealistic IMAX film still, a full view of Earth from orbit, precise day-night terminator, realistic city lights and ocean reflections, a delicate orbital ring encircling the planet with a moving emerald-green light pulse, unbranded satellites, crisp atmosphere, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark.",
+    "S10": "photorealistic IMAX film still, inside a realistic orbital observation module, a gloved astronaut hand holding a generic matte-black smartphone with an abstract emerald-green light interface and no readable content, Earth's night side visible through the cupola, physically accurate glove fabric and metal reflections, intimate human scale, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark. Full-bleed composition filling the entire frame edge to edge, no black bars, no letterboxing, no borders, no frame.",
+    "S11": "photorealistic IMAX film still, a generic unbranded dark orbital transfer craft crossing Earth's shadow, cold white rim light on realistic metal surfaces, a transparent refractive energy field ahead bending distant starlight, controlled emerald-green highlights, deep space, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark.",
+    "S12": "photorealistic IMAX film still, a generic spacecraft entering a blue-white hyperspace corridor, physically rendered starlight stretched into long volumetric streaks, restrained emerald-green energy lines converging toward a cold white central axis, subtle nebula remnants at the edges, dramatic speed, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark.",
+    "S13": "photorealistic IMAX film still, extreme close view of a generic spacecraft cockpit under a transparent multilayer refractive energy shell, surrounding star trails stabilized into clean arcs, realistic glass and metal materials, subtle emerald-green edge light, secure and controlled atmosphere, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark.",
+    "S14": "photorealistic IMAX film still, an ultra-wide deep-space vista with Earth in the lower left, orbital nodes and a distant galaxy across the upper frame, multiple emerald-green light paths converging toward one central vanishing point, strong realistic perspective, black space, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark.",
+    "S16": "photorealistic IMAX film still, a clean deep-space background plate with emerald energy currents converging around empty central negative space, polished black space, subtle green particles approaching from the edges, premium glass-and-metal lighting, designed for later logo compositing, ultra-detailed, cinematic 2.39:1 widescreen composition, no logo, no text, no watermark.",
+    "S17": "photorealistic IMAX film still, an extreme macro background plate of emerald refracted light sliding across black metallic facets, realistic bevels and glass thickness, clean central area for later brand mark compositing, minimal deep-space reflections, premium restrained lighting, ultra-detailed, cinematic 2.39:1 widescreen composition, no logo, no text, no watermark.",
+    "S18": "photorealistic IMAX film still, a minimal pure-black deep-space end-card background plate, subtle volumetric depth, faint emerald-green particles near the lower edge, large clean central negative space for later typography and logo compositing, realistic subtle film grain, 2.39:1 widescreen composition, no text, no logo, no watermark."
+  },
+  "vo_start_en": {
+    "V1": 0.8
+  }
+}

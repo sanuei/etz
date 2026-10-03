@@ -1,0 +1,368 @@
+{
+  "title_cn": "ETZ：光跃无界",
+  "title_en": "ETZ: LIGHT BEYOND BOUNDARIES",
+  "logline": "从奇点初生的一束光，到地球夜光与轨道网络，数字资产与 RWA 现实世界资产在流动中汇合；ETZ 以现货交易、App 随时随地交易、7×24 全球服务及资产安全保障，打开无限未来金融。",
+  "music": "以近乎真空的低频正弦、金属泛音与克制的人声合唱展开：冷开场只保留稀疏脉冲和漫长留白；连接段加入逐渐密集的玻璃质感音色，如光粒穿越深空；跃迁段以低频推进、低沉鼓点和逐渐加速的能量音形成速度感；高潮使用短促而沉重的电影级重击，每次光流汇聚都强化节奏；Logo 落下后收束为开阔而稳定的和弦，片尾保留两秒透明余韵。全程无歌词，旁白与配乐之间保留充分呼吸。",
+  "vo": [
+    {
+      "id": "V1",
+      "cn": "在宇宙诞生之前。",
+      "en": "Before the universe was born.",
+      "start": 1.0,
+      "emotion": "solemn"
+    },
+    {
+      "id": "V2",
+      "cn": "光，找到了方向。",
+      "en": "Light finds its direction.",
+      "start": 6.4,
+      "emotion": "reverent"
+    },
+    {
+      "id": "V3",
+      "cn": "价值，开始流动。",
+      "en": "Value begins to move.",
+      "start": 12.0,
+      "emotion": "awestruck"
+    },
+    {
+      "id": "V4",
+      "cn": "现实与远方，此刻相连。",
+      "en": "Reality and the far beyond, connected now.",
+      "start": 18.4,
+      "emotion": "expansive"
+    },
+    {
+      "id": "V5",
+      "cn": "随时随地，交易发生。",
+      "en": "Trade happens anytime, anywhere.",
+      "start": 25.2,
+      "emotion": "assured"
+    },
+    {
+      "id": "V6",
+      "cn": "昼夜流转，连接全球。",
+      "en": "Across day and night, the world connects.",
+      "start": 33.0,
+      "emotion": "steadfast"
+    },
+    {
+      "id": "V7",
+      "cn": "安全，是跃迁的坐标。",
+      "en": "Security is the coordinate of every leap.",
+      "start": 39.8,
+      "emotion": "reassuring"
+    },
+    {
+      "id": "V8",
+      "cn": "ETZ，打开无限未来金融。",
+      "en": "ETZ. Open Unlimited Future Finance.",
+      "start": 50.1,
+      "emotion": "monumental"
+    }
+  ],
+  "supers": [
+    {
+      "cn": "寂静之前",
+      "en": "BEFORE THE SILENCE",
+      "start": 0.8,
+      "end": 3.7
+    },
+    {
+      "cn": "光，穿过寂静",
+      "en": "LIGHT THROUGH SILENCE",
+      "start": 5.8,
+      "end": 9.4
+    },
+    {
+      "cn": "价值，开始流动",
+      "en": "VALUE IN MOTION",
+      "start": 11.2,
+      "end": 14.5
+    },
+    {
+      "cn": "RWA｜现实世界资产",
+      "en": "RWA | REAL-WORLD ASSETS",
+      "start": 16.0,
+      "end": 20.0
+    },
+    {
+      "cn": "现货交易 BTC/USDT",
+      "en": "SPOT TRADING BTC/USDT",
+      "start": 25.2,
+      "end": 28.4
+    },
+    {
+      "cn": "光流，汇聚成网络",
+      "en": "LIGHT BECOMES NETWORK",
+      "start": 29.0,
+      "end": 32.2
+    },
+    {
+      "cn": "连接现实与数字资产",
+      "en": "CONNECTING REALITY AND DIGITAL ASSETS",
+      "start": 32.8,
+      "end": 35.1
+    },
+    {
+      "cn": "7×24 全球服务",
+      "en": "7×24 GLOBAL SERVICE",
+      "start": 35.6,
+      "end": 38.0
+    },
+    {
+      "cn": "App 随时随地交易",
+      "en": "APP TRADING, ANYTIME, ANYWHERE",
+      "start": 38.1,
+      "end": 40.4
+    },
+    {
+      "cn": "资产安全保障",
+      "en": "ASSET SECURITY",
+      "start": 40.6,
+      "end": 44.1
+    },
+    {
+      "cn": "极速",
+      "en": "SPEED",
+      "start": 44.5,
+      "end": 46.0
+    },
+    {
+      "cn": "连接",
+      "en": "CONNECT",
+      "start": 46.2,
+      "end": 47.6
+    },
+    {
+      "cn": "全球",
+      "en": "GLOBAL",
+      "start": 47.8,
+      "end": 49.2
+    },
+    {
+      "cn": "ETZ",
+      "en": "ETZ",
+      "start": 49.4,
+      "end": 52.5
+    },
+    {
+      "cn": "连接数字资产，打开无限未来金融",
+      "en": "Connect Digital Assets, Open Unlimited Future Finance",
+      "start": 52.8,
+      "end": 57.0
+    },
+    {
+      "cn": "随时随地交易",
+      "en": "Trade Anytime, Anywhere",
+      "start": 57.2,
+      "end": 59.0
+    },
+    {
+      "cn": "etz.com",
+      "en": "etz.com",
+      "start": 59.1,
+      "end": 60.0
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0.0,
+      "end": 5.2,
+      "act": "冷开场",
+      "visual": "纯黑深空占据画面绝大部分，一枚极小的高能奇点悬在画面中心略偏右，外围只有极薄、非对称的吸积盘与微弱冷光；构图保留 vast negative space，翡翠绿仅在核心边缘闪现一次。",
+      "camera": "从超广角沿光轴极慢直线推近奇点，接近核心时几乎不可察觉。",
+      "fx": "稀疏尘埃被吸入中心，吸积盘产生轻微引力透镜畸变；末帧以一次克制的白色闪耀切入星胚。",
+      "sound": "近乎不可闻的次低频缓慢增强；一粒高频像火花般点亮，随后留下长尾混响。",
+      "image_prompt": "photorealistic IMAX film still, an immense primordial black hole and tiny brilliant singularity suspended in absolute deep space, thin asymmetric accretion disk, vast negative space, physically accurate gravitational lensing, icy white core with one extremely subtle emerald-green glint, ultra-detailed astrophotography, cinematic volumetric lighting, restrained film grain, 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S02",
+      "start": 5.2,
+      "end": 10.4,
+      "act": "冷开场",
+      "visual": "同一点光已膨胀为宇宙深处的年轻恒星，恒星被半透明尘埃与电离气体包围，形成层次清晰的巨大星云壳；左侧留黑，翡翠绿只藏在冷蓝与琥珀色的交界处。",
+      "camera": "镜头缓慢后拉，从年轻恒星的近景退至超广角，显出星云壳的尺度。",
+      "fx": "气体粒子沿球形边缘向外舒展，恒星耀斑缓慢呼吸；星云边缘匹配切入一道定向光流。",
+      "sound": "低频形成一次深吸般的上扬，加入极轻的合唱气息与遥远空间回声。",
+      "image_prompt": "photorealistic IMAX film still, a newborn star inside a vast translucent emission nebula, layered clouds of ionized gas and dust, one young brilliant sun, dark space on the left, natural cyan and amber colors with a restrained emerald-green edge, physically based star glow, immense scale, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S03",
+      "start": 10.4,
+      "end": 15.4,
+      "act": "冷开场",
+      "visual": "一道具有真实体积感的星光流从左下贯穿至右上，中心是冷白色高光，边缘夹着极细翡翠绿能量丝；远处星点稀疏，光流像一条正在寻找路径的宇宙动脉。",
+      "camera": "镜头沿光流方向做缓慢横向跟移，保持光流斜线贯穿画面。",
+      "fx": "细小光粒沿主轴加速，细丝末端逐渐分叉为网络节点；末尾以光流匹配切入地球夜面的城市灯带。",
+      "sound": "玻璃质感高频脉冲由左向右移动，低频持续托底；光流分叉时加入细密粒子声。",
+      "image_prompt": "photorealistic IMAX film still, a single volumetric river of starlight cutting diagonally from lower left to upper right through deep space, cold white core with ultra-thin emerald-green energy filaments, sparse distant stars, realistic long-exposure cosmic light, powerful negative space, ultra-detailed, 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S04",
+      "start": 15.4,
+      "end": 20.2,
+      "act": "连接",
+      "visual": "低轨视角俯瞰地球夜面，地平线沿画面下三分之一弯曲；城市灯光呈自然暖金色，极光边缘带翡翠绿，地球之外悬浮着极细的网络光弧，将现实世界与远方星点连接。",
+      "camera": "镜头沿地球弧面由左向右缓慢环绕，城市灯带产生明显视差。",
+      "fx": "极光粒子沿地球曲率漂移，网络光弧逐段点亮；冷色地球自然过渡到连接段的翡翠绿。",
+      "sound": "空间感弦乐持续音加入遥远城市电流般的低鸣，城市灯带亮起时出现柔和脉冲。",
+      "image_prompt": "photorealistic IMAX film still, low-orbit view of Earth's night side, curved horizon across the lower third, natural amber city lights, faint emerald aurora at the limb, delicate arcs of light extending from the planet into space, physically accurate atmosphere, realistic orbital perspective, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S05",
+      "start": 20.2,
+      "end": 24.8,
+      "act": "连接",
+      "visual": "前景是一处无品牌标识的模块化轨道空间站，金属结构被地球反射光照亮；下方城市网格与远方绿色光路在透视中汇合，地球占据背景大部分面积。",
+      "camera": "镜头以稳定视差向前滑过空间站天线，让近景结构快速掠过、远方地球缓慢移动。",
+      "fx": "空间站边缘出现细小导航光点，地表光路向空间站方向汇聚；末尾以导航灯匹配切至星座光柱。",
+      "sound": "空间站结构发出克制的金属低鸣，导航灯点亮时加入短促无线电质感提示音。",
+      "image_prompt": "photorealistic IMAX film still, a generic unbranded modular orbital station silhouetted above Earth's night side, realistic metallic modules and antennae, warm city grid visible below, delicate emerald-green light routes converging toward the station, strong foreground parallax, natural reflected light, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S06",
+      "start": 24.8,
+      "end": 28.8,
+      "act": "连接",
+      "visual": "深空星点被极细光线连接，组成一组有上升与回落的竖向发光柱，形态隐约呼应价格轨迹与星座连线；所有线条保持抽象，不形成任何可读图表或界面。",
+      "camera": "镜头沿发光柱组成的轨迹缓慢向右摇摄，让远近星点形成层次。",
+      "fx": "星点依次点亮后形成 K 线般的节奏，翡翠绿光线穿行其间；末端线条脱离星点，转化为全球网络。",
+      "sound": "光柱点亮时出现音高递进，节拍仍保持克制，不制造行情涨跌暗示。",
+      "image_prompt": "photorealistic IMAX film still, an abstract constellation made of real stars linked by ultra-thin emerald-green light filaments, several vertical luminous star columns suggesting a restrained market rhythm without any readable chart, deep-space background, elegant negative space, subtle lens bloom, ultra-detailed, 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S07",
+      "start": 28.8,
+      "end": 32.4,
+      "act": "连接",
+      "visual": "地球弧面位于画面右侧，左侧远方星系横跨背景；数枚轨道节点以极细翡翠绿光路彼此相连，光路最终指向同一个深空方向，呈现地球、网络与星系的连续关系。",
+      "camera": "镜头从前景轨道结构之间平稳穿过，向远方网络节点推进。",
+      "fx": "网络光流从局部节点向整幅画面扩散，粒子速度保持均匀；结尾光流汇入黑洞周围的引力透镜。",
+      "sound": "多条细小脉冲形成和声，声像由局部扩展到全景；加入深沉但克制的空间共振。",
+      "image_prompt": "photorealistic IMAX film still, Earth's crescent on the right and a distant galaxy sweeping across the background, several orbital nodes connected by delicate emerald-green light paths, realistic satellites and orbital perspective, a continuous visual relationship between planet, network, and galaxy, ultra-detailed astrophotography, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S08",
+      "start": 32.4,
+      "end": 35.4,
+      "act": "连接",
+      "visual": "巨大黑洞占据画面中央，事件视界如绝对黑暗的圆洞，光子环以冷白与琥珀色勾勒边缘；一艘极小飞船剪影沿安全弧线掠过，远处光路被引力透镜弯曲。",
+      "camera": "镜头以稳定速度绕黑洞顺时针弧形环绕，缓慢揭示飞船与光子环的相对位置。",
+      "fx": "星光在黑洞边缘发生真实弯曲，细小翡翠绿粒子沿弧线绕行；结尾从光子环的亮点硬切至地球轨道光环。",
+      "sound": "低频在黑洞中心形成压迫感，光子环出现一圈高亮长音；掠过瞬间短暂抽空高频。",
+      "image_prompt": "photorealistic IMAX film still, a supermassive black hole with a physically accurate photon ring and gravitational lens, absolute black event horizon, cold white and amber edge light, a tiny unbranded spacecraft following a graceful orbital arc, subtle emerald particles, immense scale, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S09",
+      "start": 35.4,
+      "end": 37.9,
+      "act": "跃迁",
+      "visual": "地球完整球面居中偏右，昼夜交界线清晰切割城市灯光与海洋反光；一圈纤细轨道光环围绕地球，光脉冲正从夜面扫向昼面，呈现持续运转的全球连接。",
+      "camera": "镜头沿地球表面快速横向弧移，景别明显收紧，进入跃迁节奏。",
+      "fx": "轨道光脉冲连续通过不同节点，昼面与夜面均保持微光；末尾光点脱离地球并射向观察舱。",
+      "sound": "稳定低频节拍正式进入，加入清晰但低沉的脉冲节拍与全球同步感。",
+      "image_prompt": "photorealistic IMAX film still, a full view of Earth from orbit, precise day-night terminator, realistic city lights and ocean reflections, a delicate orbital ring encircling the planet with a moving emerald-green light pulse, unbranded satellites, crisp atmosphere, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S10",
+      "start": 37.9,
+      "end": 40.2,
+      "act": "跃迁",
+      "visual": "轨道观察舱内，一只戴有深色宇航手套的手握着无品牌手机，屏幕只显示无可读文字的翡翠绿抽象光条；舷窗外地球夜面清晰可见，真实材质与克制反射突出随时连接的感觉。",
+      "camera": "镜头从手机与手部的近景做极轻微推近，舷窗外地球产生柔和视差。",
+      "fx": "屏幕光映在手套与舱内金属上，抽象光条短暂流动；手机边缘亮点匹配切入飞船导航灯。",
+      "sound": "环境转为近距离电子低鸣，屏幕操作只有一声极轻的触感音，舷窗外保留低频空间底噪。",
+      "image_prompt": "photorealistic IMAX film still, inside a realistic orbital observation module, a gloved astronaut hand holding a generic matte-black smartphone with an abstract emerald-green light interface and no readable content, Earth's night side visible through the cupola, physically accurate glove fabric and metal reflections, intimate human scale, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S11",
+      "start": 40.2,
+      "end": 42.3,
+      "act": "跃迁",
+      "visual": "一艘无品牌深色轨道转移器掠过地球阴影，机身被远处恒星勾出冷白轮廓；前方出现一圈透明折射能量面，星光在边缘形成受控偏折。",
+      "camera": "镜头从飞船前上方做高速反向跟拍，保持飞船始终锁定在中心。",
+      "fx": "飞船周围出现克制的透明保护光膜，粒子沿机身边缘被牵引；末尾能量面拉伸为超空间入口。",
+      "sound": "推进器发出低沉而稳定的脉冲，透明光膜形成时加入短促高频锁定音。",
+      "image_prompt": "photorealistic IMAX film still, a generic unbranded dark orbital transfer craft crossing Earth's shadow, cold white rim light on realistic metal surfaces, a transparent refractive energy field ahead bending distant starlight, controlled emerald-green highlights, deep space, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S12",
+      "start": 42.3,
+      "end": 44.4,
+      "act": "跃迁",
+      "visual": "飞船正进入由蓝白星光拉伸形成的超空间通道，中心是一条冷白高亮轴，翡翠绿能量线从两侧向后飞逝；画面边缘保留可辨认的星云残影。",
+      "camera": "镜头紧贴飞船后方沿通道轴线高速推进，景深快速压缩。",
+      "fx": "星点被拉成长而细的体积光束，能量线汇聚到中心；在第一道强光中切换至舱体保护结构特写。",
+      "sound": "低频推进与逐渐加速的脉冲叠加，尾端以一次完整的上升音完成跃迁。",
+      "image_prompt": "photorealistic IMAX film still, a generic spacecraft entering a blue-white hyperspace corridor, physically rendered starlight stretched into long volumetric streaks, restrained emerald-green energy lines converging toward a cold white central axis, subtle nebula remnants at the edges, dramatic speed, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S13",
+      "start": 44.4,
+      "end": 46.1,
+      "act": "高潮",
+      "visual": "飞船驾驶舱外部特写，透明舱体与多重折射层清晰可见，外部星流被稳定在规则弧线上；翡翠绿光只出现在结构边缘，画面冷峻、坚固。",
+      "camera": "镜头以高速弧形环绕驾驶舱一周，背景星流形成方向一致的运动模糊。",
+      "fx": "折射层逐级亮起，粒子轨迹被收束成安全边界；强闪后切换为全球网络汇流。",
+      "sound": "电影级重击落在舱体亮起瞬间，紧接两声短促能量脉冲。",
+      "image_prompt": "photorealistic IMAX film still, extreme close view of a generic spacecraft cockpit under a transparent multilayer refractive energy shell, surrounding star trails stabilized into clean arcs, realistic glass and metal materials, subtle emerald-green edge light, secure and controlled atmosphere, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S14",
+      "start": 46.1,
+      "end": 47.7,
+      "act": "高潮",
+      "visual": "超广幅深空视野中，地球位于左下，远方星系与轨道节点分布在上方和右侧；所有翡翠绿光路沿着透视消失点汇聚成一条冲向画面中心的能量轴。",
+      "camera": "镜头沿能量轴快速直线推进，空间站与星点从画面两侧高速掠过。",
+      "fx": "多条光路在中心合并为更明亮的粒子束，周围颜色逐渐抽离为黑与翡翠绿。",
+      "sound": "空间压迫感骤升，连续两记低频重拍与光路合并节奏完全同步。",
+      "image_prompt": "photorealistic IMAX film still, an ultra-wide deep-space vista with Earth in the lower left, orbital nodes and a distant galaxy across the upper frame, multiple emerald-green light paths converging toward one central vanishing point, strong realistic perspective, black space, ultra-detailed, cinematic 2.39:1 widescreen composition, no text, no logo, no watermark."
+    },
+    {
+      "id": "S15",
+      "start": 47.7,
+      "end": 49.3,
+      "act": "高潮",
+      "visual": "深空中央悬浮着数道彼此分离的倾斜半透明光片，材质介于翡翠玻璃与黑曜石之间；来自星系方向的粒子流正在向光片收拢，形状尚未完全闭合。",
+      "camera": "镜头以高速半环绕动作掠过光片边缘，轮廓在运动中逐渐对齐。",
+      "fx": "粒子流撞击光片后沿其切面滑行，几何结构在最后一瞬锁定为立体 E 形标志。",
+      "sound": "连续上升的能量音在结构锁定前突然悬停半拍，留出 Logo 落点。",
+      "image_prompt": "photorealistic IMAX film still, several separate tilted translucent light planes floating in deep space, materials resembling emerald glass and black obsidian, converging cosmic particles beginning to align around them without yet forming a symbol, pure black background, physically based reflections, ultra-detailed, cinematic 2.39:1 widescreen composition, no logo, no text, no watermark."
+    },
+    {
+      "id": "S16",
+      "start": 49.3,
+      "end": 50.9,
+      "act": "高潮",
+      "visual": "光流在一次闪光后收束为 ETZ 官方立体 E 形标志：数块倾斜几何切片悬浮于黑曜石般的深空背景中，边缘呈翡翠绿玻璃与金属光泽；Logo 位于画面中心，后期干净合成。",
+      "camera": "镜头沿正面轴线快速而稳定地推近 Logo，推进幅度短促有力。",
+      "fx": "所有星尘在同一瞬间停止并吸附到标志边缘，随后只剩少量余烬缓慢下沉。",
+      "sound": "低频电影重击与 Logo 锁定重合，合唱只留下一个明亮和弦。",
+      "image_prompt": "photorealistic IMAX film still, a clean deep-space background plate with emerald energy currents converging around empty central negative space, polished black space, subtle green particles approaching from the edges, premium glass-and-metal lighting, designed for later logo compositing, ultra-detailed, cinematic 2.39:1 widescreen composition, no logo, no text, no watermark."
+    },
+    {
+      "id": "S17",
+      "start": 50.9,
+      "end": 52.5,
+      "act": "高潮",
+      "visual": "ETZ 立体 E 形标志完成最终锁定，数块倾斜切片的层次、厚度和折射边缘清晰可见；背景恢复为纯净黑色，仅保留一层极淡的远星反射，Logo 全部由后期合成。",
+      "camera": "镜头从微距距离做极轻微后拉，将完整标志稳稳收进 2.39:1 画面。",
+      "fx": "翡翠绿边光从左向右完成一次扫光，粒子停止运动，画面进入片尾静帧。",
+      "sound": "主和弦持续，扫光位置出现一声干净高频亮音，随后保留低沉空间尾韵。",
+      "image_prompt": "photorealistic IMAX film still, an extreme macro background plate of emerald refracted light sliding across black metallic facets, realistic bevels and glass thickness, clean central area for later brand mark compositing, minimal deep-space reflections, premium restrained lighting, ultra-detailed, cinematic 2.39:1 widescreen composition, no logo, no text, no watermark."
+    },
+    {
+      "id": "S18",
+      "start": 52.5,
+      "end": 60.0,
+      "act": "片尾",
+      "visual": "纯净黑色深空底板上，ETZ 立体 E 形标志居于画面中央；下方依次出现官方 slogan，中文辅助信息与 etz.com 保持清晰、克制的两级排版，所有文字和标志均以后期合成。",
+      "camera": "镜头以近乎静止的极慢后拉收尾，底板仅有微弱空间视差。",
+      "fx": "Logo 扫光消退后，slogan 逐行淡入，最后浮现 etz.com；翡翠绿微粒缓慢降落到黑色背景之外。",
+      "sound": "音乐收束为开放而稳定的低频和弦，最后以一次短促而温暖的电子亮音结束。",
+      "image_prompt": "photorealistic IMAX film still, a minimal pure-black deep-space end-card background plate, subtle volumetric depth, faint emerald-green particles near the lower edge, large clean central negative space for later typography and logo compositing, realistic subtle film grain, 2.39:1 widescreen composition, no text, no logo, no watermark."
+    }
+  ]
+}
