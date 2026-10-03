@@ -17,10 +17,10 @@ ffmpeg -y -loglevel error -i "$pic" -c:v libx264 -preset slow -b:v 9M -maxrate 1
 ffmpeg -y -loglevel error -i "$pic" -i "$mix" -map 0:v -map 1:a -c:v libx264 -preset slow -b:v 9M -maxrate 14M \
   -bufsize 20M -pass 2 -passlogfile build/pass/master "${common[@]}" -c:a aac -b:a 320k -ar 48000 \
   -movflags +faststart -shortest "$out/${tag}_1080p.mp4"
-# social: lighter 2-pass ~5 Mbps for messaging apps (kept out of git, in build/deliver)
-ffmpeg -y -loglevel error -i "$pic" -c:v libx264 -preset slow -b:v 5M -maxrate 8M -bufsize 10M -pass 1 \
-  -passlogfile build/pass/social "${common[@]}" -an -f mp4 /dev/null
-ffmpeg -y -loglevel error -i "$pic" -i "$mix" -map 0:v -map 1:a -c:v libx264 -preset slow -b:v 5M -maxrate 8M \
-  -bufsize 10M -pass 2 -passlogfile build/pass/social "${common[@]}" -c:a aac -b:a 192k -ar 48000 \
-  -movflags +faststart -shortest "build/deliver/${tag}_1080p_social.mp4"
+# preview: 2-pass ~3.4 Mbps, stays under 30 MB for chat apps (kept out of git, in build/deliver)
+ffmpeg -y -loglevel error -i "$pic" -c:v libx264 -preset slow -b:v 3400k -maxrate 5M -bufsize 7M -pass 1 \
+  -passlogfile build/pass/preview "${common[@]}" -an -f mp4 /dev/null
+ffmpeg -y -loglevel error -i "$pic" -i "$mix" -map 0:v -map 1:a -c:v libx264 -preset slow -b:v 3400k -maxrate 5M \
+  -bufsize 7M -pass 2 -passlogfile build/pass/preview "${common[@]}" -c:a aac -b:a 160k -ar 48000 \
+  -movflags +faststart -shortest "build/deliver/${tag}_preview.mp4"
 ls -la "$out" build/deliver
