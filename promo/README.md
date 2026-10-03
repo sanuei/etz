@@ -4,13 +4,46 @@
 
 | 文件 | 说明 |
 | --- | --- |
-| `output/ETZ_LightBeyondBoundaries_CN_1080p.mp4` | 主版本：中文旁白，H.264 约 9 Mbps，AAC 320k |
-| `output/ETZ_LightBeyondBoundaries_EN_1080p.mp4` | 英文旁白版（同一画面，字幕按英文旁白计时） |
-| `output/poster.jpg` | 片尾定版海报帧 |
+| `output/ETZ_LightBeyondBoundaries_V2_CN_1080p.mp4` | **V2（推荐）**：画面全部由代码真 3D 渲染，不含任何生成图片；旁白为 MiniMax Speech-2.8-HD |
+| `output/poster_v2.jpg` | V2 Logo 锁定帧 |
+| `output/ETZ_LightBeyondBoundaries_CN_1080p.mp4` | V1：以 MiniMax image-01 关键帧为底做镜头运动和特效 |
+| `output/poster.jpg` | V1 片尾定版帧 |
 
-`pipeline/encode.sh` 还会在 `build/deliver/` 下输出约 3.4 Mbps、小于 30 MB 的预览版，适合微信和社媒转发。该目录不入库。
+成片都是 H.264 约 9 Mbps + AAC 320k。`v2/encode2.sh` 和 `pipeline/encode.sh` 还会在 `build/deliver/` 下输出约 3.4 Mbps、小于 30 MB 的预览版，适合微信和社媒转发。该目录不入库。
 
 响度按网络平台标准母带处理：−14.5 LUFS，真峰值 ≤ −1.2 dBTP。
+
+## V2：全程序化 3D 渲染（`v2/`）
+
+V2 的每一帧都在 CPU 上用 Numba 从三维场景实时算出，不使用任何 AI 生成图片：
+
+| 时间 | 镜头 | 渲染方式 |
+| --- | --- | --- |
+| 0.00 | 黑洞冷开场 | `bh.py`：逐像素积分史瓦西测地线（光线弯曲），吸积盘带开普勒自转、多普勒增亮和引力红移，背景星空同样被透镜化（可见爱因斯坦环） |
+| 5.25 | 大爆炸 → 旋臂星系 | 70 万粒子：炽白火球冷却成金色、外壳翡翠色，再凝聚为双旋臂星系 |
+| 10.50 | 光之河 | 14 条贝塞尔光流、4.7 万粒子拖尾汇聚 |
+| 15.00 | 近地轨道·欧洲夜景 | `planet.py`：NASA Black Marble 城市夜光 + Blue Marble 地表 + 云层，大气散射、绿色气辉层、体积极光幕；城市间光弧 |
+| 20.25 | 全球光网络 | 大圆弧航线 + 脉冲，按地球遮挡裁剪 |
+| 24.00 | 三维星座 K 线 | 景深视差星尘 + 发光蜡烛图（每根对应配乐一个音符） |
+| 28.50 | 数据晶格穿越 | 三维节点网络与流动脉冲 |
+| 31.50 | 黑洞侧视环绕 | 同一光线追踪器，星际穿越式侧视 |
+| 34.50 | 轨道日出 + 轨道光环 | 晨昏大气分层散射、太阳越出地平线 |
+| 37.50 | 悬浮玻璃手机 | 圆角盒 SDF 光线步进，玻璃反射 + 动态 K 线 App 界面 |
+| 39.75 | 蜂巢能量护盾 | 球面胞元噪声护盾包裹 3D ETZ 标志，撞击涟漪 |
+| 42.00 | 超空间跃迁 | 程序隧道 + 3D 星流拖尾 |
+| 44.25 / 45.75 / 47.25 | 极速 / 连接 / 全球 | 冲击波、汇聚光束、三连重击 + 镜头抖动 |
+| 47.25 → 60 | 3D Logo 汇聚与定版 | `logo3d.py`：官网 SVG 几何挤出 + 倒角的 SDF，光线步进渲染翡翠玻璃材质、自发光棱边、扫光；日冕背景 |
+
+V2 只调用了 MiniMax 的语音能力（Speech-2.8-HD 旁白，asr-1.0 校验发音）。旁白文案、字幕和配乐与 V1 共用。
+
+```bash
+pip install numba numpy opencv-python-headless pillow scipy pyloudnorm
+pipeline/fetch_fonts.sh && v2/fetch_textures.sh   # 字体与 NASA 地球贴图（公有领域）
+ETZ_FAST=1 python v2/preview2.py build/prev 2.5 26.5 49.6   # 快速预览单帧
+python v2/render2.py && v2/encode2.sh cn               # 全片约 21 分钟（4 核）
+```
+
+## V1 说明
 
 ## MiniMax 模型分工
 
