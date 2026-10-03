@@ -610,28 +610,28 @@ PIECE_FROM = [  # dx, dy (px), rot (deg), scale  -- start offsets for each mark 
 
 
 def mark_layout(T):
-    """Logo placement in output px: returns (scale, ox, oy) for lockup coords."""
+    """Logo placement in output px: (scale, ox, oy, k) for the mark now, plus the
+    final lockup placement (scale, ox, oy) that the wordmark always uses."""
     s_hero = 13.0
     cxm, cym = logo.MARK_CENTER
     ox_h, oy_h = W / 2 - cxm * s_hero, H / 2 - 10 - cym * s_hero
     s_lock = 6.6
     bx0, by0, bx1, by1 = logo.LOCKUP_BOX
     ox_l, oy_l = W / 2 - (bx0 + bx1) / 2 * s_lock, H / 2 - 14 - (by0 + by1) / 2 * s_lock
-    oy_end = oy_l - 92
-    k = ease_in_out((T - 50.55) / 1.0, 2.2)
+    k2 = ease_in_out((T - 53.25) / 1.1, 2.0)
+    oy_l += -92 * k2
+    k = ease_in_out((T - 50.35) / 0.8, 2.2)
     s = lerp(s_hero, s_lock, k)
     ox, oy = lerp(ox_h, ox_l, k), lerp(oy_h, oy_l, k)
-    k2 = ease_in_out((T - 53.25) / 1.1, 2.0)
-    oy += (oy_end - oy_l) * k2 * k
-    push = 1.0 + 0.035 * smooth((T - LOCK_T) / 1.0) * (1 - k)
+    push = 1.0 + 0.035 * smooth((T - LOCK_T) / 0.85) * (1 - k)
     if push != 1.0:
         cxw, cyw = W / 2, H / 2 - 10
         ox, oy, s = cxw + (ox - cxw) * push, cyw + (oy - cyw) * push, s * push
-    return s, ox, oy, k
+    return s, ox, oy, k, (s_lock, ox_l, oy_l)
 
 
 def draw_logo(img, T):
-    s, ox, oy, k = mark_layout(T)
+    s, ox, oy, k, final = mark_layout(T)
     if T < LOCK_T:
         prog = clamp((T - 47.25) / (LOCK_T - 47.25))
 
@@ -662,10 +662,11 @@ def draw_logo(img, T):
     glow_hit = 1.0 + 2.5 * math.exp(-(T - LOCK_T) / 0.35)
     light = logo.shade(mask, T, sweep=sweep, intensity=glow_hit)
     logo.composite_emissive(img, mask, light, occlusion=0.95)
-    wk = smooth((T - 50.65) / 0.9)
+    wk = smooth((T - 50.8) / 0.65)
     if wk > 0:
         slide = (1 - ease_out(wk, 3)) * 50
-        wm = logo.raster(logo.WORD, s, ox + slide, oy)
+        fs, fox, foy = final
+        wm = logo.raster(logo.WORD, fs, fox + slide, foy)
         if wk < 1:
             wm = cv2.GaussianBlur(wm, (0, 0), 0.1 + 3.0 * (1 - wk))
         wm *= wk
