@@ -4,10 +4,11 @@
 
 | 文件 | 说明 |
 | --- | --- |
-| `output/ETZ_LightBeyondBoundaries_CN_1080p.mp4` | 主版本：中文旁白，H.264 约 11 Mbps，AAC 320k |
-| `output/ETZ_LightBeyondBoundaries_CN_1080p_social.mp4` | 轻量版：约 5 Mbps，适合微信 / 社媒转发 |
-| `output/ETZ_LightBeyondBoundaries_EN_1080p.mp4` | 英文旁白版（画面相同） |
+| `output/ETZ_LightBeyondBoundaries_CN_1080p.mp4` | 主版本：中文旁白，H.264 约 9 Mbps，AAC 320k |
+| `output/ETZ_LightBeyondBoundaries_EN_1080p.mp4` | 英文旁白版（同一画面，字幕按英文旁白计时） |
 | `output/poster.jpg` | 片尾定版海报帧 |
+
+`pipeline/encode.sh` 还会在 `build/deliver/` 下输出约 5 Mbps 的轻量版，适合微信和社媒转发。该目录不入库。
 
 响度按网络平台标准母带处理：−14.5 LUFS，真峰值 ≤ −1.2 dBTP。
 
